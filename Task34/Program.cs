@@ -11,7 +11,7 @@ int[] array = GetArray(length);
 WriteLine($"[{String.Join(",", array)}]");
 chetArray(array);
 
-
+//создание массива
 int[] GetArray(int size)
 {
     Random rnd = new Random();
@@ -23,7 +23,7 @@ int[] GetArray(int size)
     return result;
 }
 
-
+//подсчёт количества чётных чисел массива
 void chetArray(int[] array)
 {
     int result = 0;
